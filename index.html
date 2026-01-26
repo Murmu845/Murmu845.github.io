@@ -1,0 +1,173 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mustafa — Cloud Computing Portfolio</title>
+    <meta name="description" content="Portfolio of Mustafa, BTS Cloud Computing student: projects, skills, certifications, and CV." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Sora:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-aurora"></div>
+    <header class="site-header">
+      <div class="brand">MUSTAFA</div>
+      <nav class="site-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="about">
+        <div class="hero-text">
+          <p class="eyebrow">Portfolio</p>
+          <h1>Hi, I’m Mustafa.</h1>
+          <p class="lead">
+            BTS Cloud Computing student at Lycée Guillaume Kroll. I’m interested in system
+            administration, networking, and security, and I’m currently learning how to design,
+            secure, and deploy cloud infrastructures.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#cv">Download CV</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="orbit">
+            <div class="orbit-ring"></div>
+            <div class="orbit-ring"></div>
+            <div class="orbit-ring"></div>
+            <div class="orbit-core">
+              <p>Cloud<br />Security<br />Ops</p>
+            </div>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <span>Focus</span>
+              <strong>Cloud + Security</strong>
+            </div>
+            <div>
+              <span>Tools</span>
+              <strong>Windows / Linux</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Tools and capabilities I use to build reliable systems.</p>
+        </div>
+        <div class="grid skills-grid">
+          <div class="card">Operating Systems: Windows, Linux</div>
+          <div class="card">HTML, CSS, JavaScript</div>
+          <div class="card">MySQL, Oracle APEX</div>
+          <div class="card">Basic configuration of computer networks</div>
+          <div class="card">Basic programming in PHP</div>
+          <div class="card">Main computer hardware components</div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>Selected work with a focus on security, access control, and clean UX.</p>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Digital Room Locking &amp; Access Control System</h3>
+            <span>PHP, MySQL, HTML, CSS, jQuery</span>
+          </div>
+          <ul>
+            <li>Role-based access for teachers, students, admins, and cleaning staff.</li>
+            <li>Room reservation workflow with reason + class required before unlock.</li>
+            <li>Admin super-user rights to manage users, rooms, and permissions.</li>
+            <li>Cleaning staff can unlock any room anytime regardless of reservations.</li>
+            <li>Backend in PHP/MySQL; frontend in HTML/CSS/jQuery with dynamic validation.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="certifications">
+        <div class="section-title">
+          <h2>Certifications</h2>
+          <p>Swipe through certifications and training highlights.</p>
+        </div>
+        <div class="certifications-flow" role="list">
+          <a class="cert-card" role="listitem" href="https://www.credly.com/badges/03932d0e-e13b-45ff-b66b-6c677d916425/public_url" target="_blank" rel="noopener">
+            <h4>Microsoft Word Certification</h4>
+            <p>Credly • Year</p>
+            <span>View badge on Credly.</span>
+          </a>
+          <article class="cert-card" role="listitem">
+            <h4>Certification Name</h4>
+            <p>Provider • Year</p>
+            <span>Focus area or short summary.</span>
+          </article>
+          <article class="cert-card" role="listitem">
+            <h4>Certification Name</h4>
+            <p>Provider • Year</p>
+            <span>Focus area or short summary.</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="cv">
+        <div class="section-title">
+          <h2>CV</h2>
+          <p>Download or view my CV in two languages.</p>
+        </div>
+        <div class="cv-actions">
+          <a class="btn primary" href="CV.MAIN-11.24.2025.pdf" download>Download CV (EN)</a>
+          <a class="btn ghost" href="CV.MAIN-11.24.2025.pdf" target="_blank" rel="noopener">View CV (EN)</a>
+          <a class="btn ghost" href="#" aria-disabled="true">Add CV (FR)</a>
+        </div>
+        <p class="hint">Replace the French CV link when the second file is ready.</p>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="section-title">
+          <h2>More About Me</h2>
+        </div>
+        <div class="grid info-grid">
+          <div class="card">
+            <h3>Languages</h3>
+            <p>Arabic (native)</p>
+            <p>French (C2)</p>
+            <p>English (B1)</p>
+            <p>Luxembourgish (B2)</p>
+          </div>
+          <div class="card">
+            <h3>Hobbies</h3>
+            <p>Add your hobbies and interests outside of tech.</p>
+          </div>
+          <div class="card">
+            <h3>LinkedIn</h3>
+            <p><a href="https://www.linkedin.com/in/mustafa-murtadha-b8b671361/" target="_blank" rel="noopener">linkedin.com/in/mustafa-murtadha</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Mustafa. Portfolio site.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
+
