@@ -427,6 +427,44 @@ main {
   text-decoration: none;
 }
 
+.language-list {
+  display: grid;
+  gap: 6px;
+}
+
+.language-list p {
+  opacity: 0;
+  transform: translateY(8px);
+  animation: language-rise 0.6s ease forwards;
+}
+
+.language-list p:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.language-list p:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.language-list p:nth-child(3) {
+  animation-delay: 0.25s;
+}
+
+.language-list p:nth-child(4) {
+  animation-delay: 0.35s;
+}
+
+@keyframes language-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .school-focus .section-title {
   align-items: center;
 }
